@@ -1,3 +1,5 @@
+package Lab1;
+
 public class WheelGraph {
 
     // Functia pentru generarea matricei de adiacenta a unui graf roata
