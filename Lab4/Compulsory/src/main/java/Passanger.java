@@ -1,4 +1,4 @@
-package Lab4.Compulsory.src.main.java;
+
 
 /**
  * This class represents a passenger, which is a type of person.

@@ -1,4 +1,4 @@
-package Lab4.Compulsory.src.main.java;
+
 
 /**
  * This class represents a driver, which is a type of person.

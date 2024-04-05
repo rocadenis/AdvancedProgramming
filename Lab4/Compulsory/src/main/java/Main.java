@@ -1,4 +1,4 @@
-package Lab4.Compulsory.src.main.java;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
