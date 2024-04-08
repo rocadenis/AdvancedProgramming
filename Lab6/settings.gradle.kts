@@ -1,2 +1,1 @@
-rootProject.name = "Lab6"
-
+include("Homework1")
