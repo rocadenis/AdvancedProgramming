@@ -1,0 +1,4 @@
+org/example/Main.class
+org/example/persistence/EntityManagerFactorySingleton.class
+org/example/model/Book.class
+org/example/repository/BookRepository.class
