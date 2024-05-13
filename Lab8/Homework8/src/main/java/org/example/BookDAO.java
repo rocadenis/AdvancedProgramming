@@ -41,7 +41,7 @@ public class BookDAO {
         String line = "";
         String csvSplitBy = ",";
         boolean isFirstLine = true;
-        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("M/d/yyyy"); // Custom date format
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("M/d/yyyy");
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             while ((line = br.readLine()) != null) {
@@ -59,7 +59,7 @@ public class BookDAO {
                 String language = data[6];
                 int numPages = Integer.parseInt(data[7]);
                 LocalDate publicationDate = LocalDate.parse(data[10], dateFormatter);
-                int authorId = 2; //a default author ID
+                int authorId = 2;
 
                 Book book = new Book(id, title, language, publicationDate, numPages, authorId);
 
